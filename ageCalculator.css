@@ -80,3 +80,31 @@
   color: plum;
   font-weight: 300;
 }
+
+@media (max-width: 713px) {
+  .input-box {
+    font-size: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px 0;
+    width: 80%;
+  }
+  .input-box input {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 305px) {
+  .calculator h1 {
+    font-size: 25px;
+  }
+  .input-box input {
+    padding: 10px;
+    font-size: 10px;
+  }
+  .calculator {
+    margin-top: 100px;
+  }
+}
